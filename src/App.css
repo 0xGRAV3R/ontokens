@@ -1,0 +1,177 @@
+@media only screen and (min-width: 320px) {
+  .page {
+    width: 100%;
+    
+  }
+  
+  .sideBar {
+    top: 0px;
+    border-right: 1px solid rgb(63, 63, 63);
+    color: white;
+    left: -500px;
+    position: absolute;
+    background-color: #222336;
+    transition: left 0.16s;
+    z-index: 10;
+    top: 40px;
+    bottom: 0;
+  }
+  .sideBar.show {
+    left: 0;
+  }
+
+  .mainWindow {
+    width: 100%;
+  }
+
+  .rightBar {
+    top: 0px;
+    width: 100%;
+    color: white;
+    height: 100vh;
+  }
+  .btn-collapse {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .sideBar {
+    top: 0px;
+    border-right: 1px solid rgb(63, 63, 63);
+    color: white;
+    left: -500px;
+    position: absolute;
+    background-color: #222336;
+    transition: left 1s;
+    top: 67px;
+    bottom: 0;
+    z-index: 10;
+  }
+  .sideBar.show {
+    left: 0;
+  }
+  .btn-collapse {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .page {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sideBar, .sideBar.show {
+    display: inline;
+    position: sticky;
+    top: 0px;
+    width: calc((100vw - 800px)*0.45);
+    border-right: 1px solid rgb(63, 63, 63);
+    color: white;
+    height: 100vh;
+  }
+
+  .rightBar {
+    position: sticky;
+    top: 0px;
+    width: calc((100vw - 800px)*0.55);
+    border-left: 1px solid rgb(63, 63, 63);
+    color: white;
+    height: 100vh;
+  }
+
+  .mainWindow {
+    width: 800px;
+  }
+
+  .btn-collapse {
+    display: none;
+  }
+
+}
+
+.page {
+  position: relative;
+}
+/* Text Field */
+.sc-fWIMVQ {
+  background-color: transparent !important;
+  border-right: 0px !important;
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid rgb(63, 63, 63) !important;
+  color: white !important;
+  height: 90px !important;
+}
+
+/* Text Area */
+.sc-jWEIYm {
+  color: white !important;
+  fill: white !important;
+  font-size: 20px !important;
+  height: 10px !important;
+}
+
+.rdMZu {
+    min-height: 90px !important;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.logout{
+  display: flex;
+  justify-content: end;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.logout:hover {
+  color:gray;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginPage {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.btn-collapse {
+  margin-right: 20px;
+  background: transparent;
+  border: none;
+}
+
+.btn {
+  background-color: #6441a5;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  color: white;
+  font-weight: 600;
+  justify-content: center;
+  grid-gap: 5px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 20px;
+}

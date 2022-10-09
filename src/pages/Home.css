@@ -1,0 +1,79 @@
+.pageIdentify{
+    max-width: 100%;
+    padding:10px;
+    background-color: #141d26ed;
+    position: sticky;
+    top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 999;
+}
+
+.mainContent {
+    width: 100%;
+}
+
+.profileTweet {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(63, 63, 63) ;
+    padding: 20px;
+}
+
+.tweetBox {
+    width:89%;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.imgOrTweet {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    align-items: center;
+}
+
+.tweet {
+    background-color: #6441a5;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tweet:hover {
+    cursor: pointer;
+}
+
+.tweetOptions {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.imgDiv{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.imgDiv:hover{
+    cursor:pointer;
+    background-color: #282828;
+}
+.tweetImg {
+    width: 98%;
+    border-radius: 10px;
+}
+
+.maxSize{
+    color: white;
+    font-size: 8px;
+}

@@ -1,0 +1,12 @@
+.mint-page .nft-list .item h2 {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.mint-page .nft-list .item.selected h2 {
+  border-color: green;
+}
+
+.create-site {
+  
+}
