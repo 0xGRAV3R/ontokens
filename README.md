@@ -1,7 +1,7 @@
 <img alt="OnTokens Logo" src="https://www.ontokens.xyz/images/logo/ontokens-logo.png" height="60px">
 
-OnTokens is an open source content management platform supporting a variety of websites ranging from personal weblogs to large community-driven websites. For more information, visit the OnTokens website, [ontokens.xyz][ontokens.xyz], and join
-the [OnTokens community][OnTokens community].
+OnTokens is an open source content management platform supporting a variety of websites ranging from personal weblogs to large community-driven websites. For more information, visit the OnTokens website, [ontokens.xyz], and join
+the [OnTokens community].
 
 ## Contributing
 
